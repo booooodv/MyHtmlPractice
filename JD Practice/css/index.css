@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+/*顶部导航*/
+#subNav{
+	border:0px solid #ff0000;
+	width:100%;	
+	height:30px;
+	background:url(imgs/bg01.png);
+}
+#subNav #subNavCon{
+	border:0px solid #ff0000;
+	width:1200px;
+	height:30px;
+	margin:0px auto;
+}
+#subNav #subNavCon #SubNavConImg{
+	margin-top:5px;
+	float:left;
+}
+#subNav #subNavCon #subNavConLeft{
+	border:0px solid #ff0000;
+	width:40px;
+	float:left;
+	font-size:16px;
+	text-align:center;
+	line-height:30px;
+	color:#666; 
+}
+#subNav #subNavCon #subNavConRight{
+	border:0px solid #ff0000;
+	width:810px;
+	float:right;
+}
+#subNavConRight ul{
+	list-style:none;
+	font-size:14px;
+}
+#subNavConRight ul li{
+	border:0px solid #ff0000;
+	color:#666;
+	line-height:30px;
+	font-size:14px;
+	float:left;
+	text-align:center;
+}
+#sncrTxt{
+	color:#f00;
+	font-size:14px;
+	text-decoration:none;
+}
+#sncrTxtOne{width:170px;}
+.sncrTxtImg{width:1px;}
+.sncrTxtfTxt{width:90px;}
+/*logo 搜索 购物篮*/
+#logo{
+	border:0px solid #ff0000;
+	height:70px;
+	width:1194px;
+	margin:auto;
+	margin-top:10px;
+}
+.logoCon{
+	border:0px solid #ff0000;
+	height:70px;
+}
+#logoImg{
+	width:340px;
+	float:left;
+}
+#logoSea{
+	width:430px;	
+	float:left;
+}
+#logoCar{
+	width:250px;
+	float:right;
+	position:relative;
+}
+#logoSeaIn{
+	border:2px solid #B00003;
+	width:430px;	
+	height:30px;
+	margin:auto;
+	margin-top:10px;
+	
+}
+#logoSeaTxt{
+	border:0px solid #ff0000;
+	width:430px;
+	margin-top:2px;
+	font-size:12px;
+}
+#logoSeaInput{
+	width:354px;
+	height:30px;
+	float:left;
+}
+#logoSeaInImg{
+	width:76px;
+	height:30px;
+	float:left;
+}
+#logoSeaTxt span{
+	font-size:12px;
+	color:#666;	
+	margin-left:2px;
+}
+#logoCarCon{
+	border:1px solid #D7D7D7;
+	height:40px;
+	width:200px;
+	margin:10px auto;
+	background-color:#E9E9E9;
+}
+#logoCarConImg{
+	border:0px solid #999;
+	height:16px;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+}
+#logoCarConTxt{
+	border:0px solid #999;
+	font-size:12px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+#logoCarConCount{
+	border:0px solid #999;
+	width:17px;
+	height:16px;
+	position:absolute;
+	left:165px;
+	top:5px;
+
+}
+/*主导航*/
+#mainNav{
+	border-bottom:2px solid #DD0631;
+	height:42px;
+}
+#mainNavCon{
+	border:0px solid #ff0000;
+	width:1194px;
+	height:42px;
+	margin:auto;
+}
+#mainNavConLeft{
+	border:0px solid #ff0000;
+	height:42px;
+	width:198px;
+	float:left;
+}
+#mainNavConMid{
+	border:0px solid #ff0000;
+	height:42px;
+	width:700px;
+	float:left;
+}
+#mainNavConRight{
+	border:0px solid #ff0000;
+	height:42px;
+	width:200px;
+	float:right;
+}
+#mainNavConMid ul{
+	list-style:none;
+}
+.mncmTh{
+	border:0px solid #ff0000;
+	font-size:16px;
+	font-weight:500;
+	width:80px;
+	text-align:center;
+	line-height:41px;
+	float:left;
+}
+.mncmT{
+	border:0px solid #ff0000;
+	font-size:16px;
+	font-weight:500;
+	width:70px;
+	text-align:center;
+	line-height:41px;
+	float:left;
+}
+/*主页内容*/
+#mainOne{
+	border:1px solid #ff0000;
+	width:1194px;
+	margin:auto;
+	height:438px;
+	
+}
+#mainOneLeft{
+	border:0px solid #ff0000;
+	width:198px;
+	height:438px;
+	float:left;
+	background-color: #D80105;
+}
+#mainOneMid{
+	border:1px solid #ff0000;
+	width:685px;
+	height:428px;
+	float:left;
+	margin:10px 10px;
+}
+#mainOneRight{
+	border:1px solid #ff0000;
+	width:285px;
+	height:428px;
+	margin-top:10px;
+	float:right;
+}
+.mainOneLeftTxt{
+	border:0px solid #00ff00;
+	width:148px;
+	float:left;
+	color: #EDEDED;
+	font-size:13px;
+	font-weight:700;
+	height:29px;
+	line-height:29px;
+	padding-left:10px;
+}
+.mainOneLeftFlag{
+	border:0px solid #00ff00;
+	width:36px;
+	text-align:center;
+	float:left;
+	color:#FDFCFC;
+	font-size:13px;
+	font-weight:700;
+	height:29px;
+	line-height:29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
